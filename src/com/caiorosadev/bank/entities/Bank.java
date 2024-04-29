@@ -7,7 +7,7 @@ public class Bank {
 	private int id;
 	private String name;
 
-	private int uniqueIdentifier = 0;
+	private int uniqueIdentifier = 1;
 	private final List<Account> accounts = new ArrayList<>();
 
 	public void registerAccount(double initialMoney) {

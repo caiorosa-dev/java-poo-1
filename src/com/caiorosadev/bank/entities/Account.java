@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Account {
 	private final int id;
-
 	private double balance;
 	private double limit;
 	private boolean canIgnoreLimit = false;
